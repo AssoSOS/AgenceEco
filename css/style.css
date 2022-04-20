@@ -1,0 +1,97 @@
+@import url("https : //fonts.googleapis.com/css2?family= Advent & Pro = swap");
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #565E65;
+}
+
+/* NAVBAR */
+nav {
+    background-color: white;
+    min-height: 60px;
+    width: 100%;
+    position:fixed;
+
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}
+
+
+
+/*  banner  */
+
+.banner {
+    background-image: url("./../images/rodion.jpg");
+    height: 600px;
+}
+.banner .title{
+    padding: 300px 40px 0 0;
+}
+.banner h1{
+    color: white;
+    text-align: right;
+}
+
+
+
+h4 {
+    border-radius: 50%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
