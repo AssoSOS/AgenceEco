@@ -1,10 +1,72 @@
-@import url("https : //fonts.googleapis.com/css2?family= Advent & Pro = swap");
+@import url("https : //fonts.googleapis.com/css2?family= Roboto = swap");
 
 body {
     font-family: 'Advent Pro', sans-serif;
     padding: 0;
     margin: 0;
 }
+
+.row{
+    display: flex;
+}
+.container{
+    margin: 30px 10% 0 10%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+.col-6{
+    width: 50%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.image-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section-title h2{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-title p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-title{
+    margin-bottom: 40px;
+}
+
+
+/* new section */
+
+.bg-dark{
+    background-color: #053B44;
+    padding:40px 0 40px 0 ;
+    color:white;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
 
 ul {
     margin: 0;
@@ -23,7 +85,6 @@ h1 {
 }
 
 h2 {
-    text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
     font-size: 2em;
@@ -78,8 +139,10 @@ header li a {
 }
 
 
+/* Equipe */
 
-h4 {
+.equipe h4 {
+    border-image: url("./..images/image 1.jpg,images/image 2.jpg,images/image 3.jpg");
     border-radius: 50%;
 }
 
@@ -95,3 +158,44 @@ h4 {
     clear: both;
     display: table;
 }
+
+/*  Form  */
+
+.form {
+    background-color:#053B44;
+    height: 600px;
+}
+.form .title{
+    padding: 300px 40px 0 0;
+}
+.form h1{
+    color:#d5f31f;
+    text-align: center;
+}
+.button  {
+    background-color: #d5f31f;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+/* Two image containers */
+.aProposDeNous{
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
